@@ -11,6 +11,10 @@ Semua elemen di dalam kodingan harus menggunakan Bahasa Indonesia agar seragam d
 - Penamaan variabel dan fungsi/method.
 - Komentar (_comments_) pada kode.
 - Nama tabel database dan kolom (sebisa mungkin diterjemahkan, misal: `users` menjadi `pengguna`).
+- menggunakan php 8.4
+- menggunakan laravel 12
+- menggunakan livewire 4
+- pastikan install composer & npm
 
 ### 2. Aturan Penamaan (Naming Cases)
 
