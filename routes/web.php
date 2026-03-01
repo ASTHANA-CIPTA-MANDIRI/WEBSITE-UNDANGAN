@@ -4,7 +4,7 @@ use App\Http\Controllers\Auth\GoogleController;
 use Illuminate\Support\Facades\Route;
 
 // public route
-Route::livewire('/', 'public.homepage.homepage');
+Route::livewire('/', 'public.homepage.homepage')->name('/');
 Route::get('/login', function () {
     return redirect('/')->with('error', 'Sesi Anda telah berakhir. Silakan login kembali untuk melanjutkan.');
 })->name('login');
@@ -23,5 +23,5 @@ Route::middleware(['auth'])->group(function () {
 
 Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::livewire('/dashboard', 'admin.dashboard.dashboard')->name('admin.dashboard');
-    Route::livewire('/templates', 'admin.template.template-list')->name('admin.templates');
+    Route::livewire('/templates', 'admin.template.template-list')->name('admin.templates.index');
 });

@@ -1,3 +1,3 @@
 <div>
-    {{-- Do what you can, with what you have, where you are. - Theodore Roosevelt --}}
+    <h3>template list</h3>
 </div>
