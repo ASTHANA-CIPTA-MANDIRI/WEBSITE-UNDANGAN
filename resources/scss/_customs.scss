@@ -5,5 +5,18 @@
 .rounded-2xl {
     border-radius: $border-radius-2xl !important;
 }
+.font-heading {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.font-body {
+    font-family: "Cormorant Garamond", serif;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+[x-cloak] {
+    display: none !important;
+}
 @import "components/table-custom";
 @import "components/card-custom";
+@import "components/sidebar-custom";

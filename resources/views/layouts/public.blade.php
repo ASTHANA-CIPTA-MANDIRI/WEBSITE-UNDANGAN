@@ -7,7 +7,7 @@
 
     <title>{{ $title ?? config('app.name') }}</title>
 
-    @vite(['resources/css/custom.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     @livewireStyles
 </head>
@@ -21,7 +21,7 @@
                 <span class="text-white me-3">Halo, {{ auth()->user()->name }}</span>
                 {{-- Tombol dashboard sesuai role --}}
                 @if(auth()->user()->role === 'admin')
-                <a href="/admin/dashboard" class="btn btn-outline-light btn-sm" wire:navigate>Dashboard Admin</a>
+                <a href="/admin/dashboard" class="btn btn-outline-light btn-sm">Dashboard Admin</a>
                 <form action="{{ route('logout') }}" method="POST" class="d-inline">
                     @csrf
                     <button type="submit" class="btn btn-danger btn-sm">Logout</button>
