@@ -1,0 +1,631 @@
+/* =========================================
+   DANCING SCRIPT
+   ========================================= */
+
+/* Regular (Normal) */
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/dancing-script/dancing-script-v29-latin-regular.woff2")
+        format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Medium */
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/dancing-script/dancing-script-v29-latin-500.woff2")
+        format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Semi-Bold */
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/dancing-script/dancing-script-v29-latin-600.woff2")
+        format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Bold */
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/dancing-script/dancing-script-v29-latin-700.woff2")
+        format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* =========================================
+   PLAYFAIR DISPLAY
+   ========================================= */
+
+/* Regular (Normal) & italic */
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-regular.woff2")
+        format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-italic.woff2")
+        format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* medium (500) normal & italic*/
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-500.woff2")
+        format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-500italic.woff2")
+        format("woff2");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Semi Bold (600) - Normal & italic */
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-600.woff2")
+        format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-600italic.woff2")
+        format("woff2");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Bold (700) - Normal & italic */
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-700.woff2")
+        format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Bold (700) - Italic */
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-700italic.woff2")
+        format("woff2");
+    font-weight: 700;
+    font-style: italic; /* Penting! */
+    font-display: swap;
+}
+
+/* playfair-display-800 - latin normal & italic */
+@font-face {
+    font-display: swap;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-800.woff2")
+        format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: 800;
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-800italic.woff2")
+        format("woff2");
+}
+/* playfair-display-900 - latin normal & italic */
+@font-face {
+    font-display: swap;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/playfari-display/playfair-display-v40-latin-900.woff2")
+        format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: 900;
+    src: url("../fonts/playfair-display/playfair-display-v40-latin-900italic.woff2")
+        format("woff2");
+}
+
+/* =========================================
+   CORMORANT GARAMOND
+   ========================================= */
+@font-face {
+    font-display: swap;
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 300;
+    src: url("../fonts/cormorant-garamond/cormorant-garamond-v21-latin-300italic.woff2")
+        format("woff2");
+}
+/* cormorant-garamond-regular - latin normal & italic */
+@font-face {
+    font-display: swap;
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/cormorant-garamond/cormorant-garamond-v21-latin-regular.woff2")
+        format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/cormorant-garamond/cormorant-garamond-v21-latin-italic.woff2")
+        format("woff2");
+}
+/* cormorant-garamond-500 - latin normal & italic */
+@font-face {
+    font-display: swap;
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/cormorant-garamond/cormorant-garamond-v21-latin-500.woff2")
+        format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 500;
+    src: url("../fonts/cormorant-garamond/cormorant-garamond-v21-latin-500italic.woff2")
+        format("woff2");
+}
+/* cormorant-garamond-600 - latin  normal & italic*/
+@font-face {
+    font-display: swap;
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/cormorant-garamond/cormorant-garamond-v21-latin-600.woff2")
+        format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 600;
+    src: url("../fonts/cormorant-garamond/cormorant-garamond-v21-latin-600italic.woff2")
+        format("woff2");
+}
+/* cormorant-garamond-700 - latin normal & italic */
+@font-face {
+    font-display: swap;
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/cormorant-garamond/cormorant-garamond-v21-latin-700.woff2")
+        format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Cormorant Garamond";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/cormorant-garamond/cormorant-garamond-v21-latin-700italic.woff2")
+        format("woff2");
+}
+
+/* =========================================
+   LORA
+   ========================================= */
+/* lora-regular - latin normal & italic */
+@font-face {
+    font-display: swap;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/lora/lora-v37-latin-regular.woff2") format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Lora";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/lora/lora-v37-latin-italic.woff2") format("woff2");
+}
+/* lora-500 - latin normal & italic*/
+@font-face {
+    font-display: swap;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/lora/lora-v37-latin-500.woff2") format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Lora";
+    font-style: italic;
+    font-weight: 500;
+    src: url("../fonts/lora/lora-v37-latin-500italic.woff2") format("woff2");
+}
+/* lora-600 - latin normal & italic*/
+@font-face {
+    font-display: swap;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/lora/lora-v37-latin-600.woff2") format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Lora";
+    font-style: italic;
+    font-weight: 600;
+    src: url("../fonts/lora/lora-v37-latin-600italic.woff2") format("woff2");
+}
+/* lora-700 - latin normal & italic*/
+@font-face {
+    font-display: swap;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/lora/lora-v37-latin-700.woff2") format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Lora";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/lora/lora-v37-latin-700italic.woff2") format("woff2");
+}
+
+/* =========================================
+   CINZEL
+   ========================================= */
+/* cinzel-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/cinzel/cinzel-v26-latin-regular.woff2") format("woff2");
+}
+/* cinzel-500 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/cinzel/cinzel-v26-latin-500.woff2") format("woff2");
+}
+/* cinzel-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/cinzel/cinzel-v26-latin-600.woff2") format("woff2");
+}
+/* cinzel-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/cinzel/cinzel-v26-latin-700.woff2") format("woff2");
+}
+/* cinzel-800 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/cinzel/cinzel-v26-latin-800.woff2") format("woff2");
+}
+/* cinzel-900 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/cinzel/cinzel-v26-latin-900.woff2") format("woff2");
+}
+
+/* =========================================
+   POPPINS
+   ========================================= */
+/* poppins-300 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/poppins/poppins-v24-latin-300.woff2") format("woff2");
+}
+/* poppins-300italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 300;
+    src: url("../fonts/poppins/poppins-v24-latin-300italic.woff2")
+        format("woff2");
+}
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/poppins/poppins-v24-latin-regular.woff2") format("woff2");
+}
+/* poppins-italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/poppins/poppins-v24-latin-italic.woff2") format("woff2");
+}
+/* poppins-500 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/poppins/poppins-v24-latin-500.woff2") format("woff2");
+}
+/* poppins-500italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 500;
+    src: url("../fonts/poppins/poppins-v24-latin-500italic.woff2")
+        format("woff2");
+}
+/* poppins-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/poppins/poppins-v24-latin-600.woff2") format("woff2");
+}
+/* poppins-600italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 600;
+    src: url("../fonts/poppins/poppins-v24-latin-600italic.woff2")
+        format("woff2");
+}
+/* poppins-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/poppins/poppins-v24-latin-700.woff2") format("woff2");
+}
+/* poppins-700italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/poppins/poppins-v24-latin-700italic.woff2")
+        format("woff2");
+}
+/* poppins-800 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/poppins/poppins-v24-latin-800.woff2") format("woff2");
+}
+/* poppins-800italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 800;
+    src: url("../fonts/poppins/poppins-v24-latin-800italic.woff2")
+        format("woff2");
+}
+/* poppins-900 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/poppins/poppins-v24-latin-900.woff2") format("woff2");
+}
+/* poppins-900italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 900;
+    src: url("../fonts/poppins/poppins-v24-latin-900italic.woff2")
+        format("woff2");
+}
+
+/* =========================================
+   RALEWAY
+   ========================================= */
+/* raleway-300 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/raleway/raleway-v37-latin-300.woff2") format("woff2");
+}
+/* raleway-300italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 300;
+    src: url("../fonts/raleway/raleway-v37-latin-300italic.woff2")
+        format("woff2");
+}
+/* raleway-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/raleway/raleway-v37-latin-regular.woff2") format("woff2");
+}
+/* raleway-italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/raleway/raleway-v37-latin-italic.woff2") format("woff2");
+}
+/* raleway-500 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/raleway/raleway-v37-latin-500.woff2") format("woff2");
+}
+/* raleway-500italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 500;
+    src: url("../fonts/raleway/raleway-v37-latin-500italic.woff2")
+        format("woff2");
+}
+/* raleway-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/raleway/raleway-v37-latin-600.woff2") format("woff2");
+}
+/* raleway-600italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 600;
+    src: url("../fonts/raleway/raleway-v37-latin-600italic.woff2")
+        format("woff2");
+}
+/* raleway-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/raleway/raleway-v37-latin-700.woff2") format("woff2");
+}
+/* raleway-700italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/raleway/raleway-v37-latin-700italic.woff2")
+        format("woff2");
+}
+/* raleway-800 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/raleway/raleway-v37-latin-800.woff2") format("woff2");
+}
+/* raleway-800italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 800;
+    src: url("../fonts/raleway/raleway-v37-latin-800italic.woff2")
+        format("woff2");
+}
+/* raleway-900 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/raleway/raleway-v37-latin-900.woff2") format("woff2");
+}
+/* raleway-900italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 900;
+    src: url("../fonts/raleway/raleway-v37-latin-900italic.woff2")
+        format("woff2");
+}
+
+/* =========================================
+   ALEX BRUSH, SACRAMENTO, & PARISIENNE
+   ========================================= */
+/* alex-brush-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Alex Brush";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/alex-brush/alex-brush-v23-latin-regular.woff2")
+        format("woff2");
+}
+
+/* sacramento-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Sacramento";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/sacramento/sacramento-v17-latin-regular.woff2")
+        format("woff2");
+}
+
+/* parisienne-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Parisienne";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/parisienne/parisienne-v14-latin-regular.woff2")
+        format("woff2");
+}
