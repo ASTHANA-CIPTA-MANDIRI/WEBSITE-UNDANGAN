@@ -26,11 +26,7 @@
             <span class="brand-text">Undangan.id</span>
         </div>
 
-        <!-- Navigation -->
         <nav class="sidebar-nav">
-            <!-- Section: Utama -->
-            <div class="nav-section-label">Utama</div>
-
             <!-- Dashboard -->
             <div class="nav-item">
                 <a href="{{ route('admin.dashboard') }}" class="nav-parent text-decoration-none {{request()->routeIs('admin.dashboard') ? 'active' : ''}}" data-tooltip="Dashboard" wire:navigate>
@@ -41,8 +37,6 @@
 
             <!-- Section: Katalog -->
             <div class="nav-section-label">Katalog</div>
-
-            <!-- Produk -->
             <x-sidebar-menu
                 label="Undangan"
                 icon="ph ph-cube"
@@ -97,7 +91,6 @@
     <div class="main-content">
         <!-- Topbar -->
         <header class="topbar">
-            <!-- Toggle Button -->
             <button class="sidebar-toggle" @click="open = !open" :title="open ? 'Tutup sidebar' : 'Buka sidebar'">
                 <span class="toggle-icon">
                     <i class="ph" :class="open ? 'ph-caret-left' : 'ph-caret-right'"></i>
@@ -111,6 +104,7 @@
             </a>
         </header>
         <!-- End Topbar -->
+
         <!-- dynamic content body -->
         <div class="p-3">
             {{ $slot }}
