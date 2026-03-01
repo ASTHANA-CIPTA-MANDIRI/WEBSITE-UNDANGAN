@@ -1,0 +1,23 @@
+$pagination-padding-y: 0.5rem;
+$pagination-padding-x: 0.875rem;
+$pagination-font-size: 0.9375rem;
+
+$pagination-color: #5a7863;
+$pagination-bg: #ffffff;
+$pagination-border-color: rgba(#90ab8b, 0.4);
+
+$pagination-focus-color: #ebf4dd;
+$pagination-focus-bg: #5a7863;
+$pagination-focus-box-shadow: 0 0 0 3px rgba(#5a7863, 0.2);
+
+$pagination-hover-color: #ebf4dd;
+$pagination-hover-bg: #90ab8b;
+$pagination-hover-border-color: #90ab8b;
+
+$pagination-active-color: #ebf4dd;
+$pagination-active-bg: #5a7863;
+$pagination-active-border-color: #5a7863;
+
+$pagination-disabled-color: rgba(#3b4953, 0.35);
+$pagination-disabled-bg: #ebf4dd;
+$pagination-border-radius: $border-radius;

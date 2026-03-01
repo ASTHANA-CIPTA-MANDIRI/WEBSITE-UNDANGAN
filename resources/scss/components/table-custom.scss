@@ -1,0 +1,143 @@
+// table customize
+.table {
+    // Typography
+    font-size: 0.9375rem; // 15px — sedikit lebih kecil dari body
+    line-height: 1.6;
+
+    // Header styling
+    thead {
+        th {
+            background-color: #5a7863; // forest green
+            color: #ebf4dd; // cream text
+            font-weight: 600;
+            font-size: 0.8125rem; // 13px
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            border-bottom: none; // hilangkan border default
+            white-space: nowrap;
+        }
+    }
+
+    // Body rows
+    tbody {
+        tr {
+            transition: background-color 0.15s ease;
+
+            td {
+                vertical-align: middle; // konten selalu di tengah vertikal
+                color: #3b4953;
+            }
+        }
+    }
+
+    // Footer (tfoot)
+    tfoot {
+        td,
+        th {
+            background-color: rgba(#90ab8b, 0.1);
+            font-weight: 600;
+            color: #3b4953;
+            border-top: 2px solid rgba(#90ab8b, 0.4);
+        }
+    }
+}
+
+// ─── VARIANT: Bordered ─────────────────────────────────────
+.table-bordered {
+    border: 1px solid rgba(#90ab8b, 0.4);
+
+    td,
+    th {
+        border: 1px solid rgba(#90ab8b, 0.3);
+    }
+}
+
+// ─── VARIANT: Borderless ───────────────────────────────────
+.table-borderless {
+    thead th {
+        border-radius: 0; // flat header untuk borderless
+    }
+}
+
+// ─── VARIANT: Striped ──────────────────────────────────────
+.table-striped {
+    tbody tr:nth-of-type(odd) {
+        background-color: rgba(#ebf4dd, 0.6); // cream tint untuk baris ganjil
+    }
+}
+
+// ─── VARIANT: Hover ────────────────────────────────────────
+.table-hover {
+    tbody tr:hover {
+        background-color: rgba(#5a7863, 0.07);
+        cursor: pointer;
+    }
+}
+
+// ─── VARIANT: Dark Header (alternatif) ─────────────────────
+.table-dark-header {
+    thead th {
+        background-color: #3b4953; // slate navy
+        color: #ebf4dd;
+    }
+}
+
+// ─── VARIANT: Sage Header (lebih soft) ─────────────────────
+.table-sage-header {
+    thead th {
+        background-color: rgba(#90ab8b, 0.25);
+        color: #3b4953; // teks gelap di atas sage terang
+    }
+}
+
+// Rounded table — wrapper diperlukan
+.table-rounded {
+    border-radius: $border-radius-lg;
+    overflow: hidden; // agar border-radius terapply
+    border: 1px solid rgba(#90ab8b, 0.35);
+
+    table {
+        margin-bottom: 0; // hilangkan gap bawah
+    }
+
+    thead th:first-child {
+        border-radius: 0;
+    } // reset radius individual cell
+    thead th:last-child {
+        border-radius: 0;
+    }
+}
+
+.table {
+    .table-success {
+        --bs-table-bg: rgba(#4e8c6e, 0.12);
+        --bs-table-striped-bg: rgba(#4e8c6e, 0.17);
+        --bs-table-hover-bg: rgba(#4e8c6e, 0.22);
+        color: #2e5441;
+    }
+
+    .table-danger {
+        --bs-table-bg: rgba(#a85751, 0.12);
+        --bs-table-striped-bg: rgba(#a85751, 0.17);
+        --bs-table-hover-bg: rgba(#a85751, 0.22);
+        color: #6b3330;
+    }
+
+    .table-warning {
+        --bs-table-bg: rgba(#b8904a, 0.12);
+        --bs-table-striped-bg: rgba(#b8904a, 0.17);
+        --bs-table-hover-bg: rgba(#b8904a, 0.22);
+        color: #6b5020;
+    }
+
+    .table-info {
+        --bs-table-bg: rgba(#4a7a8c, 0.12);
+        --bs-table-striped-bg: rgba(#4a7a8c, 0.17);
+        --bs-table-hover-bg: rgba(#4a7a8c, 0.22);
+        color: #2b4d57;
+    }
+
+    .table-active {
+        --bs-table-bg: rgba(#5a7863, 0.13);
+    }
+}

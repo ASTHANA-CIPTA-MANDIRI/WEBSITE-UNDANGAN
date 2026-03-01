@@ -1,0 +1,39 @@
+// ─── TABLE SIZING ──────────────────────────────────────────
+$table-cell-padding-y: 0.875rem; // default 0.5rem → lebih spacious
+$table-cell-padding-x: 1.25rem; // default 0.5rem
+$table-cell-padding-y-sm: 0.5rem; // untuk .table-sm
+$table-cell-padding-x-sm: 0.75rem;
+
+// ─── TABLE WARNA ───────────────────────────────────────────
+$table-color: #3b4953; // warna teks → slate
+$table-bg: transparent;
+$table-accent-bg: transparent;
+
+// Striped (baris selang-seling)
+$table-striped-color: #3b4953;
+$table-striped-bg-factor: 0.04; // default 0.05 → lebih subtle
+$table-striped-bg: rgba(#90ab8b, $table-striped-bg-factor); // sage tint
+
+// Hover
+$table-hover-color: #3b4953;
+$table-hover-bg-factor: 0.07;
+$table-hover-bg: rgba(#5a7863, $table-hover-bg-factor); // forest tint
+
+// Active (baris yang di-klik)
+$table-active-color: #3b4953;
+$table-active-bg-factor: 0.1;
+$table-active-bg: rgba(#5a7863, $table-active-bg-factor);
+
+// Border
+$table-border-factor: 0.15;
+$table-border-width: 1px;
+$table-border-color: rgba(#90ab8b, 0.4); // sage border → soft
+
+// Header
+$table-th-font-weight: 600;
+
+// Caption
+$table-caption-color: rgba(#3b4953, 0.55);
+
+// Warna variant contextual
+$table-bg-scale: -80%; // mengontrol seberapa terang bg variant

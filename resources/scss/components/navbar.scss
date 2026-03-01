@@ -1,0 +1,17 @@
+$nav-link-padding-y: 0.5rem;
+$nav-link-padding-x: 1rem;
+$nav-link-font-weight: 500;
+$nav-link-color: rgba(#ebf4dd, 0.85);
+$nav-link-hover-color: #ebf4dd;
+$nav-link-transition: color 0.2s ease;
+
+// Tabs
+$nav-tabs-border-color: rgba(#90ab8b, 0.4);
+$nav-tabs-link-active-color: #5a7863;
+$nav-tabs-link-active-bg: #ebf4dd;
+$nav-tabs-link-active-border-color: #90ab8b #90ab8b #ebf4dd;
+
+// Pills
+$nav-pills-border-radius: $border-radius;
+$nav-pills-link-active-color: #ebf4dd;
+$nav-pills-link-active-bg: #5a7863;
