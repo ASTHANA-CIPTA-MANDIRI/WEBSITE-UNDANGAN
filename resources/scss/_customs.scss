@@ -1,0 +1,9 @@
+.btn {
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+.rounded-2xl {
+    border-radius: $border-radius-2xl !important;
+}
+@import "components/table-custom";
+@import "components/card-custom";

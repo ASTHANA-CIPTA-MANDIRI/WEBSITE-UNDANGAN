@@ -1,0 +1,33 @@
+// typography
+$font-family-sans-serif: "Plus Jakarta Sans", system-ui, sans-serif;
+$font-family-serif:
+    "Cormorant Garamond", Georgia, serif; // custom, bukan Bootstrap default
+$headings-font-family:
+    "Cormorant Garamond", Georgia, serif; // heading pakai serif
+// Font size base
+$font-size-base: 1rem; // 16px — tetap
+$font-size-sm: 0.875rem; // 14px
+$font-size-lg: 1.125rem; // 18px
+
+// Line height → lebih longgar = lebih mudah dibaca
+$line-height-base: 1.7; // default 1.5 → naikkan untuk keterbacaan
+$line-height-sm: 1.4;
+$line-height-lg: 1.8;
+
+// Heading sizes — sedikit lebih dramatic untuk wedding feel
+$h1-font-size: $font-size-base * 2.75; // 44px
+$h2-font-size: $font-size-base * 2.25; // 36px
+$h3-font-size: $font-size-base * 1.75; // 28px
+$h4-font-size: $font-size-base * 1.375; // 22px
+$h5-font-size: $font-size-base * 1.125; // 18px
+$h6-font-size: $font-size-base; // 16px
+
+// Font weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500; // Bootstrap tak punya ini secara default
+$font-weight-bold: 600; // default 700 → turunkan agar tidak terlalu "heavy"
+
+$headings-font-weight: 600;
+$headings-line-height: 1.25;
+$headings-letter-spacing: -0.02em; // sedikit lebih tight → terasa premium

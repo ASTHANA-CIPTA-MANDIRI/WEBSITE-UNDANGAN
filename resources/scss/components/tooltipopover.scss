@@ -1,0 +1,21 @@
+// Tooltip
+$tooltip-bg: #3b4953;
+$tooltip-color: #ebf4dd;
+$tooltip-border-radius: $border-radius-sm;
+$tooltip-padding-y: 0.4rem;
+$tooltip-padding-x: 0.75rem;
+$tooltip-font-size: 0.8125rem;
+$tooltip-opacity: 0.95;
+
+// Popover
+$popover-bg: #ffffff;
+$popover-border-color: rgba(#90ab8b, 0.3);
+$popover-border-radius: $border-radius-lg;
+$popover-box-shadow: 0 8px 32px rgba(#3b4953, 0.14);
+$popover-header-bg: #ebf4dd;
+$popover-header-color: #3b4953;
+$popover-header-padding-y: 0.875rem;
+$popover-header-padding-x: 1.25rem;
+$popover-body-padding-y: 1rem;
+$popover-body-padding-x: 1.25rem;
+$popover-body-color: #3b4953;

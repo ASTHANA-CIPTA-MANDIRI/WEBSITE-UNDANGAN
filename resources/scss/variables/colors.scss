@@ -1,0 +1,56 @@
+// ─── BRAND PALETTE ────────────────────────────────────────
+$color-cream: #ebf4dd;
+$color-sage: #90ab8b;
+$color-forest: #5a7863;
+$color-slate: #3b4953;
+$color-emerald: #4e8c6e;
+$color-dusty-rose: #a85751;
+$color-warm-amber: #b8904a;
+$color-teal-slate: #4a7a8c;
+
+// override theme colors
+$theme_colors: (
+    "primary": $color-forest,
+    "secondary": $color-sage,
+    "success": $color-emerald,
+    "danger": $color-dusty-rose,
+    "warning": $color-warm-amber,
+    "info": $color-teal-slate,
+    "light": $color-cream,
+    "dark": $color-slate,
+);
+
+//links
+$link-color: $color-forest;
+$link-hover-color: $color-slate;
+// headings
+$headings-color: $color-slate;
+// background bg dan text
+$body-bg: $color-cream;
+$body-color: $color-slate;
+// border
+$border-color: rgba($color-sage, 0.4);
+//card
+$card-bg: #fff;
+$card-border-color: rgba($color-sage, 0.3);
+$card-cap-color: rgba($color-sage, 0.8);
+// navbar (dark theme)
+$navbar-dark-color: rgba(#fff, 0.85);
+$navbar-dark-hover-color: $color-cream;
+$navbar-dark-active-color: $color-cream;
+
+// alert
+$success-bg-subtle: #e8f4ee;
+$danger-bg-subtle: #f5e8e7;
+$warning-bg-subtle: #f5eee0;
+$info-bg-subtle: #e4eff3;
+
+$success-text-emphasis: #2e5441;
+$danger-text-emphasis: #6b3330;
+$warning-text-emphasis: #6b5020;
+$info-text-emphasis: #2b4d57;
+
+$success-border-subtle: #a8cebb;
+$danger-border-subtle: #ceaba9;
+$warning-border-subtle: #cebc9a;
+$info-border-subtle: #8fb8c5;
