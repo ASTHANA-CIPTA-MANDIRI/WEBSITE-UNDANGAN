@@ -23,5 +23,5 @@ Route::middleware(['auth'])->group(function () {
 
 Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::livewire('/dashboard', 'admin.dashboard.dashboard')->name('admin.dashboard');
-    Route::livewire('/templates', 'admin.template.template-list')->name('admin.templates.index');
+    Route::livewire('/templates', 'admin.template-undangan.template-undangan-list')->name('admin.templates.index');
 });
